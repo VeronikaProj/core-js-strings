@@ -392,7 +392,7 @@ function reverseWords(str) {
   const words = str.split(' ');
   let result = '';
   for (let i = 0; i < words.length; i += 1) {
-    result += reverseString(words[i]) + ' ';
+    result += `${reverseString(words[i])} `;
   }
   return result.trim();
 }
